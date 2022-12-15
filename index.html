@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PortfolioWeb-ArgentinaPrograma</title>
+    <title>Portfolio-ArgentinaPrograma</title>
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
@@ -15,11 +15,28 @@
     />
   </head>
   <body class=".bg-light.bg-gradient">
-    <header class="border border-dark border-3 rounded m-1 header p-4"></header>
+    <header class="border border-dark border-3 rounded m-1 header p-2">
+      <nav class="navbar align-items-start">
+        <div class="d-flex flex-column">
+          <img
+            class="img-fluid img-header"
+            src="/img/argprog.png"
+            alt="logo de argentina programa"
+          />
+          <h6 class="text-white">Argentina Programa</h6>
+          <h6 class="text-white">// #YoProgramo</h6>
+        </div>
+        <div class="navbar-right">
+          <button class="btn btn-primary">Login</button>
+        </div>
+      </nav>
+    </header>
     <div
-      class="profile-info border-0 bg-transparent card text-dark d-flex col-4 flex-column align-items-center"
+      class="profile-info border-0 bg-transparent card text-dark d-flex flex-row align-items-center"
     >
-      <div class="card-body text-center d-flex flex-column align-items-center">
+      <div
+        class="card-body text-center d-flex flex-column align-items-start w-full"
+      >
         <img
           class="navbar-img img-fluid rounded-circle"
           src="./img/charlybgood.jpg"
@@ -29,13 +46,12 @@
         <h6 class="card-text">Desarrollador Fullstack jr.</h6>
         <p class="card-text">Buenos Aires (Argentina)</p>
       </div>
-      <div class="card p-4 w-full">
-        <h4 class="card-text">
-            manejo de tecnologías:
-        </h4>
-      </div>
+      
     </div>
-    
+    <div class="card border-1 m-1 p-4 top-4">
+      <h4 class="card-text">manejo de tecnologías:</h4>
+      <p>Html, css, javascript, nodejs, express</p>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
       integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
