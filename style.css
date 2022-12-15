@@ -13,7 +13,7 @@ body {
 
 .header {
   background-color: aliceblue;
-  background-image: url("/img/planetayo.png");
+  background-image: url("./img/planetayo.png");
   /* width: 100%; */
   height: 35vh;
   /* position: fixed; */
