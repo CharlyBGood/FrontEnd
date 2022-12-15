@@ -26,8 +26,8 @@ body {
 .profile-info {
     /* position: fixed; */
     width: 100%;
-    bottom: 11vh;
-    /* left: 7%; */
+    bottom: 17vh;
+    left: 11%;
 }
 
 .navbar-img {
